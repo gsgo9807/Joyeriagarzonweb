@@ -1,0 +1,6 @@
+{
+  "name": "Garzon Joyería - Tienda de Joyas de Lujo",
+  "description": "Tienda en línea de joyas artesanales finas, con vista detallada de productos, carrito de compras, catálogo con filtros y asesor personal de joyas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
