@@ -7,8 +7,8 @@ import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
+const __dirname = process.cwd();
 
 const GARZON_API_URL = (process.env.GARZON_API_URL || 'https://joyeria-garzon.onrender.com').replace(/\/$/, '');
 
